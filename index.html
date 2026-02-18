@@ -1,44 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Video</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watch Video Now</title>
+
+<!-- ✅ INPAGE PUSH ADS -->
+<script src="https://pl28742068.effectivegatecpm.com/16/02/6a/16026a975a946a14c6a15afc2d14455a.js"></script>
 
 <style>
 body{
-background:black;
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-margin:0;
+    margin:0;
+    background:#000;
+    color:white;
+    font-family:Arial, sans-serif;
+    text-align:center;
 }
+
+.container{
+    max-width:700px;
+    margin:auto;
+    padding:20px;
+}
+
 video{
-width:100%;
-max-width:700px;
-border-radius:12px;
+    width:100%;
+    border-radius:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:15px 25px;
+    background:red;
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    border-radius:8px;
 }
 </style>
 </head>
 
 <body>
 
-<video id="video" controls>
-<source src="https://cdn.videy.co/VYOSfCwz1.mp4" type="video/mp4">
+<div class="container">
+
+<h2>▶ Watch Full Video</h2>
+
+<!-- VIDEO -->
+<video controls>
+    <source src="https://cdn.videy.co/VNDBFNBT1.mp4" type="video/mp4">
 </video>
 
-<script>
-let adsShown = false;
+<br>
 
-document.getElementById("video").addEventListener("play", function(){
+<!-- ✅ DIRECT LINK ADS -->
+<a class="btn" href="https://omg10.com/4/10286552" target="_blank">
+Continue Watching
+</a>
 
-if(!adsShown){
-adsShown = true;
-window.open("https://omg10.com/4/10286552","_blank");
-}
-
-});
-</script>
+</div>
 
 </body>
-</html>
+  </html>
